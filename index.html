@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWDD Store | مطور مواقع احترافية</title>
+    <link rel="icon" type="image/png" href="public\favicon.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" id="mobileMenuToggle">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-content">
+            <!-- Logo -->
+            <div class="logo-container">
+                <div class="logo">
+                    <img src="public/1766505631460.png" alt="AWDD Store Logo" onerror="this.parentElement.innerHTML='<i class=\'fas fa-code\'></i>'">
+                </div>
+                <h2 class="brand-name">AWDD Store</h2>
+            </div>
+
+            <!-- Navigation Links -->
+            <ul class="nav-links">
+                <li>
+                    <a href="#home" class="nav-link active" data-section="home">
+                        <i class="fas fa-home"></i>
+                        <span>الرئيسية</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects" class="nav-link" data-section="projects">
+                        <i class="fas fa-briefcase"></i>
+                        <span>الأعمال</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#services" class="nav-link" data-section="services">
+                        <i class="fas fa-cogs"></i>
+                        <span>الخدمات</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link" data-section="about">
+                        <i class="fas fa-user"></i>
+                        <span>من أنا</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link" data-section="contact">
+                        <i class="fas fa-envelope"></i>
+                        <span>تواصل</span>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Social Links -->
+            <div class="social-links">
+                <a href="https://github.com/abdo-a2026" class="social-link" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/awddstore?igsh=b2o4aGQ2dzI4MTM0" class="social-link" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/awddstore?igsh=b2o4aGQ2dzI4MTM0" class="social-link" title="WhatsApp">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.instagram.com/awddstore?igsh=b2o4aGQ2dzI4MTM0" class="social-link" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Close button for mobile -->
+        <button class="sidebar-close" id="sidebarClose">
+            <i class="fas fa-times"></i>
+        </button>
+    </nav>
+
+    <!-- Sidebar Overlay for Mobile -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <!-- Home Section -->
+        <section id="home" class="section home-section active">
+            <div class="hero-container">
+                <div class="hero-logo animate-fade-up">
+                    <div class="floating-logo">
+                        <img src="public/1766505631460.png" alt="AWDD Store Logo" onerror="this.parentElement.innerHTML='<i class=\'fas fa-laptop-code\'></i>'">
+                    </div>
+                </div>
+                
+                <h1 class="hero-title animate-fade-up" style="animation-delay: 0.2s;">
+                    AWDD Store
+                </h1>
+                
+                <p class="hero-subtitle animate-fade-up" style="animation-delay: 0.3s;">
+                    نبني مواقع ويب عصرية وسريعة ومُحسّنة للتحويلات
+                </p>
+                
+                <p class="hero-description animate-fade-up" style="animation-delay: 0.4s;">
+                    متخصصون في تصميم وتطوير مواقع الويب الاحترافية التي تجمع بين الجمال والأداء العالي. 
+                    نحول أفكارك إلى تجارب رقمية مميزة تساعدك على النمو والتميز في عالم الإنترنت.
+                </p>
+
+                <div class="hero-buttons animate-fade-up" style="animation-delay: 0.5s;">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        شاهد الأعمال
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-comments"></i>
+                        تواصل معنا
+                    </a>
+                </div>
+
+                <!-- Quick Stats -->
+                <div class="quick-stats animate-fade-up" style="animation-delay: 0.6s;">
+                    <div class="stat-item">
+                        <h3>50+</h3>
+                        <p>مشروع منجز</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>30+</h3>
+                        <p>عميل سعيد</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>5+</h3>
+                        <p>سنوات خبرة</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="section-header">
+                <h2 class="section-title">معرض الأعمال</h2>
+                <p class="section-subtitle">مشاريع احترافية صممناها بعناية فائقة</p>
+            </div>
+
+            <!-- Projects Horizontal Scroll -->
+            <div class="projects-scroll-container">
+                <button class="scroll-btn scroll-left">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                
+                <div class="projects-scroll" id="projectsContainer">
+                    <!-- Projects will be loaded dynamically from products.js -->
+                </div>
+
+                <button class="scroll-btn scroll-right">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section services-section">
+            <div class="section-header">
+                <h2 class="section-title">خدماتنا</h2>
+                <p class="section-subtitle">حلول متكاملة لاحتياجاتك الرقمية</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>صفحات الهبوط</h3>
+                    <p>صفحات هبوط عالية التحويل مصممة لتحقيق أهدافك التسويقية وزيادة المبيعات</p>
+                    <a href="#contact" class="service-link">اطلب الآن <i class="fas fa-arrow-left"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>المتاجر الإلكترونية</h3>
+                    <p>متاجر إلكترونية متكاملة مع أنظمة دفع آمنة وإدارة منتجات احترافية</p>
+                    <a href="#contact" class="service-link">اطلب الآن <i class="fas fa-arrow-left"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>مواقع الأعمال</h3>
+                    <p>مواقع شركات احترافية تعكس هوية علامتك التجارية بشكل مميز</p>
+                    <a href="#contact" class="service-link">اطلب الآن <i class="fas fa-arrow-left"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>المواقع الشخصية</h3>
+                    <p>صمم حضورك الرقمي بموقع شخصي يبرز مهاراتك وإنجازاتك</p>
+                    <a href="#contact" class="service-link">اطلب الآن <i class="fas fa-arrow-left"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>مواقع المطاعم</h3>
+                    <p>مواقع مطاعم أنيقة مع قوائم طعام تفاعلية ونظام حجوزات</p>
+                    <a href="#contact" class="service-link">اطلب الآن <i class="fas fa-arrow-left"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>تطوير Frontend</h3>
+                    <p>تطوير واجهات أمامية متقدمة باستخدام أحدث التقنيات والأطر</p>
+                    <a href="#contact" class="service-link">اطلب الآن <i class="fas fa-arrow-left"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="about-container">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <h2 class="section-title">من نحن</h2>
+                    <p class="about-text">
+                        نحن فريق من المطورين والمصممين المتحمسين لإنشاء تجارب رقمية استثنائية. 
+                        مع أكثر من 5 سنوات من الخبرة في تصميم وتطوير المواقع، نفخر بتقديم حلول 
+                        ويب مبتكرة تساعد الأعمال على النمو والازدهار في العالم الرقمي.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>تصميم عصري وجذاب</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>أداء سريع ومُحسّن</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>متجاوب مع جميع الأجهزة</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>دعم فني مستمر</span>
+                        </div>
+                    </div>
+
+                    <h3 class="tech-title">التقنيات التي نستخدمها</h3>
+                    <div class="tech-stack">
+                        <span class="tech-badge">HTML5</span>
+                        <span class="tech-badge">CSS3</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">React</span>
+                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">WordPress</span>
+                        <span class="tech-badge">Tailwind</span>
+                        <span class="tech-badge">Figma</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="section-header">
+                <h2 class="section-title">تواصل معنا</h2>
+                <p class="section-subtitle">هل لديك مشروع؟ دعنا نحوله إلى واقع</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">الاسم الكامل</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">البريد الإلكتروني</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="projectType">نوع المشروع</label>
+                            <select id="projectType" name="projectType" required>
+                                <option value="">اختر نوع المشروع</option>
+                                <option value="landing">صفحة هبوط</option>
+                                <option value="ecommerce">متجر إلكتروني</option>
+                                <option value="business">موقع أعمال</option>
+                                <option value="portfolio">موقع شخصي</option>
+                                <option value="restaurant">موقع مطعم</option>
+                                <option value="other">أخرى</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">رسالتك</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            إرسال الرسالة
+                        </button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h4>البريد الإلكتروني</h4>
+                        <a href="mailto:info@AWDD.Store.com">info@AWDD.Store.com</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <i class="fab fa-whatsapp"></i>
+                        <h4>واتساب</h4>
+                        <a href="https://wa.me/1234567890">+123 456 7890</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <i class="fas fa-clock"></i>
+                        <h4>ساعات العمل</h4>
+                        <p>السبت - الخميس<br>9:00 ص - 6:00 م</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Project Details Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-container" id="modalContainer">
+            <button class="modal-close" id="modalClose">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <div class="modal-content">
+                <!-- Image Gallery -->
+                <div class="modal-gallery">
+                    <button class="gallery-nav gallery-prev">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    
+                    <div class="gallery-image">
+                        <img src="" alt="Project Image" id="modalImage">
+                    </div>
+
+                    <button class="gallery-nav gallery-next">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+
+                    <div class="gallery-dots" id="galleryDots"></div>
+                </div>
+
+                <!-- Project Details -->
+                <div class="modal-details">
+                    <h2 class="modal-title" id="modalTitle"></h2>
+                    <p class="modal-type" id="modalType"></p>
+                    
+                    <div class="modal-section">
+                        <h3><i class="fas fa-align-right"></i> الوصف</h3>
+                        <p id="modalDescription"></p>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3><i class="fas fa-bullseye"></i> الهدف</h3>
+                        <p id="modalGoal"></p>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3><i class="fas fa-code"></i> التقنيات المستخدمة</h3>
+                        <div class="modal-tags" id="modalTechnologies"></div>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3><i class="fas fa-star"></i> الميزات</h3>
+                        <ul class="modal-features" id="modalFeatures"></ul>
+                    </div>
+
+                    <div class="modal-actions">
+                        <a href="#" class="btn btn-primary" id="modalLiveLink" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            عرض مباشر
+                        </a>
+                        <a href="#contact" class="btn btn-secondary" id="modalRequestBtn">
+                            <i class="fas fa-handshake"></i>
+                            اطلب موقع مشابه
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>AWDD Store Studio</h3>
+                <p>نبني مواقع تصنع الفارق</p>
+            </div>
+            
+            <div class="footer-copy">
+                <p>&copy; 2024 AWDD Store Studio. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
