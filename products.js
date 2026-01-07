@@ -9,19 +9,47 @@ const products = [
         type: "متجر إلكتروني",
         description: "متجر إلكتروني متكامل لبيع الإلكترونيات والأجهزة الذكية، مصمم بواجهة عصرية وسهلة الاستخدام مع نظام إدارة منتجات متقدم وسلة تسوق ذكية.",
         goal: "توفير تجربة تسوق سلسة وآمنة للمستخدمين مع إمكانية إدارة كاملة للمنتجات والطلبات والعملاء من لوحة تحكم احترافية.",
-        technologies: ["HTML5", "CSS3", "JavaScript", "React", "Node.js", "MongoDB", "Stripe"],
+        technologies: ["HTML5", "CSS3", "JavaScript", ],
         features: [
             "واجهة مستخدم عصرية ومتجاوبة مع جميع الأجهزة",
             "نظام سلة تسوق متطور مع حساب تلقائي للأسعار",
-            "بوابات دفع آمنة متعددة (Stripe, PayPal)",
             "نظام تقييمات ومراجعات المنتجات",
-            "لوحة تحكم كاملة لإدارة المتجر",
             "نظام بحث وتصفية متقدم",
             "إشعارات فورية للطلبات الجديدة",
             "تتبع الشحنات والطلبات"
         ],
-        liveDemo: "https://example.com/techstore",
+        liveDemo: "https://abdo-a2026.github.io/online-store-web-1/",
         images: [
+            "public/mjr4.jpg",
+            "public/mjr1.jpg",
+            "public/mjr6.jpg",
+            "public/mjr3.jpg",
+            "public/mjr5.jpg",
+
+        ]
+    },
+    {
+        id: 3,
+        name: "موقع مطعم فاخر - Gourmet Palace",
+        type: "موقع مطعم",
+        description: "موقع أنيق لمطعم فاخر يعرض قائمة الطعام بشكل تفاعلي وجذاب مع نظام حجوزات متكامل وصور احترافية للأطباق.",
+        goal: "جذب المزيد من العملاء وتسهيل عملية الحجز والطلب مع عرض قائمة الطعام بطريقة شهية ومغرية.",
+        technologies: ["HTML5", "CSS3", "JavaScript",  "Firebase", "Google Maps API"],
+        features: [
+            "معرض صور احترافي للأطباق",
+            "قائمة طعام تفاعلية مع الأسعار",
+            "نظام حجز الطاولات أونلاين",
+            "خدمة الطلب والتوصيل",
+            "تكامل مع خرائط جوجل للموقع",
+            "قسم آراء العملاء والتقييمات",
+            "عرض العروض الخاصة والوجبات اليومية",
+        ],
+        liveDemo: "https://abdo-a2026.github.io/restaurant-website2/",
+        images: [
+            "public/mt5.jpg",
+            "public/mt1.jpg",
+            "public/mt4.jpg",
+            "public/mt3.jpg",
         ]
     },
     {
@@ -30,7 +58,7 @@ const products = [
         type: "صفحة هبوط",
         description: "صفحة هبوط احترافية مصممة لزيادة التحويلات وجذب العملاء المحتملين، مع تركيز على السرعة والأداء العالي وتجربة المستخدم المثالية.",
         goal: "تحقيق أعلى معدلات تحويل ممكنة من خلال تصميم جذاب ورسائل تسويقية قوية مع دعوات واضحة للإجراء (CTA).",
-        technologies: ["HTML5", "CSS3", "JavaScript", "GSAP", "AOS", "Tailwind CSS"],
+        technologies: ["HTML5", "CSS3", "JavaScript",  "AOS", "Tailwind CSS"],
         features: [
             "تصميم جذاب يلفت الانتباه فوراً",
             "سرعة تحميل فائقة (أقل من 2 ثانية)",
@@ -41,29 +69,12 @@ const products = [
             "محسّنة لمحركات البحث (SEO)",
             "اختبارات A/B Testing جاهزة"
         ],
-        liveDemo: "https://example.com/launchpro",
+        liveDemo: "https://abdo-a2026.github.io/landing-page--dnt-web/",
         images: [
-        ]
-    },
-    {
-        id: 3,
-        name: "موقع مطعم فاخر - Gourmet Palace",
-        type: "موقع مطعم",
-        description: "موقع أنيق لمطعم فاخر يعرض قائمة الطعام بشكل تفاعلي وجذاب مع نظام حجوزات متكامل وصور احترافية للأطباق.",
-        goal: "جذب المزيد من العملاء وتسهيل عملية الحجز والطلب مع عرض قائمة الطعام بطريقة شهية ومغرية.",
-        technologies: ["HTML5", "CSS3", "JavaScript", "Vue.js", "Firebase", "Google Maps API"],
-        features: [
-            "معرض صور احترافي للأطباق",
-            "قائمة طعام تفاعلية مع الأسعار",
-            "نظام حجز الطاولات أونلاين",
-            "خدمة الطلب والتوصيل",
-            "تكامل مع خرائط جوجل للموقع",
-            "قسم آراء العملاء والتقييمات",
-            "عرض العروض الخاصة والوجبات اليومية",
-            "تعدد اللغات (عربي - إنجليزي)"
-        ],
-        liveDemo: "https://example.com/gourmet-palace",
-        images: [
+            "public/dn7.jpg",
+            "public/dn4.jpg",
+            "public/dn6.jpg",
+            "public/dn3.jpg",
         ]
     },
     {
@@ -83,8 +94,14 @@ const products = [
             "تكامل مع وسائل التواصل الاجتماعي",
             "حماية الصور من النسخ"
         ],
-        liveDemo: "https://example.com/visualart",
+        liveDemo: "https://abdo-a2026.github.io/photography-web/",
         images: [
+            "public/ph7.jpg",
+            "public/ph1.jpg",
+            "public/ph5.jpg",
+            "public/ph3.jpg",
+            "public/ph4.jpg",
+            "public/ph6.jpg",
         ]
     },
     {
